@@ -1,0 +1,48 @@
+.title-awesome {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.line {
+  width: 64px;
+  border-top: 2px solid rgb(255, 51, 0);
+  margin: 30px auto;
+}
+
+.discription {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 67px;
+}
+.awesome-row {
+  display: flex;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.awesome-row-item {
+  width: 350px;
+}
+
+.awesome-row-item-img {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border: 2px solid #d98943;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awesome-description-item {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.awesome-text {
+  width: auto;
+  height: auto;
+  margin: 16px 16px;
+}
