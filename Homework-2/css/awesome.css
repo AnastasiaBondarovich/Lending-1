@@ -1,8 +1,16 @@
 .title-awesome {
-  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 25px;
+  text-align: center;
 }
 
+h2 {
+  font-size: 20px;
+  color: #212121;
+  font-family: Raleway, italic;
+  text-transform: uppercase;
+}
 .line {
   width: 64px;
   border-top: 2px solid rgb(255, 51, 0);
@@ -14,14 +22,25 @@
   margin-right: auto;
   margin-bottom: 67px;
 }
+
+h6 {
+  font-family: open sans;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
 .awesome-row {
   display: flex;
   padding-left: auto;
   padding-right: auto;
+  text-align: center;
 }
 
 .awesome-row-item {
-  width: 350px;
+  max-width: 350px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .awesome-row-item-img {
@@ -36,12 +55,21 @@
 }
 
 .awesome-description-item {
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .awesome-text {
+  font-family: open sans;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
   width: auto;
   height: auto;
   margin: 16px 16px;
