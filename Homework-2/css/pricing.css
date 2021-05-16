@@ -1,0 +1,199 @@
+.price-section {
+  background-color: #e5e5e5;
+}
+.title-pricing {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: normal;
+  color: #212121;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.price-line {
+  width: 64px;
+  border-top: 2px solid rgb(255, 51, 0);
+  margin: 0 auto 34px;
+}
+
+.price-discription {
+  margin: 0 auto 63px;
+}
+
+h6 {
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19px;
+  color: #86878b;
+}
+
+.price-row-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.tariff-1 {
+  background: #333333;
+  width: 340px;
+  height: 50px;
+  left: 113px;
+  top: 273px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tariff-basic {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 27px;
+  color: #ffffff;
+  /* text-align: center; */
+}
+
+.price-1 {
+  background: #333333;
+  width: 340px;
+  height: 100px;
+  left: 113px;
+  top: 324px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-dollars-1 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  line-height: 41px;
+  color: #ffffff;
+  /* text-align: center; */
+}
+
+.price-conditions-1 {
+  background: #333333;
+  width: 340px;
+  height: 50px;
+  left: 113px;
+  top: 426px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-conditions-descriptions-1 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
+  /* text-align: center; */
+}
+
+.price-advantage {
+  background: #ffffff;
+  width: 340px;
+  height: 40px;
+  left: 113px;
+  top: 480px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantage-1gb {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19px;
+  color: #86878b;
+  /* text-align: center; */
+}
+
+.tariff-2 {
+  background: #333333;
+  width: 340px;
+  height: 50px;
+  left: 113px;
+  top: 273px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tariff-optima {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 27px;
+  color: #ffffff;
+  /* text-align: center; */
+}
+
+.price-2 {
+  background: #333333;
+  width: 340px;
+  height: 100px;
+  left: 531px;
+  top: 326px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-dollars-2 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  line-height: 41px;
+  color: #ffffff;
+  /* text-align: center; */
+}
+
+.price-conditions-2 {
+  background: #d98943;
+  width: 340px;
+  height: 50px;
+  left: 531px;
+  top: 428px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-conditions-descriptions-2 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
+  /* text-align: center; */
+}
