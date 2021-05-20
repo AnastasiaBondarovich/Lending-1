@@ -1,5 +1,7 @@
 @import url('../css/awesome.css');
 @import url('../css/pricing.css');
+@import url('../css/customers.css');
+@import url('../css/axure.css');
 
 html {
   font-family: 'Raleway', 'Open Sans', sans-serif;
@@ -22,4 +24,6 @@ html {
   max-width: 1170px;
   margin: auto;
   padding: 15px 0;
+  position: relative;
+  z-index: 1;
 }

@@ -1,36 +1,46 @@
 .price-section {
-  background-color: #e5e5e5;
+  background-color: #f5f5f5;
 }
-.title-pricing {
+.block title-pricing {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 34px;
   text-align: center;
 }
 
-h2 {
+.title-pricing {
   font-family: Raleway;
   font-weight: 400;
   font-size: 36px;
   font-style: normal;
   color: #212121;
   text-transform: uppercase;
-  margin-bottom: 34px;
+  margin: 0 auto 34px;
+  text-align: center;
 }
 
-.price-line {
+/* .title-customers::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  background-color: rgb(255, 51, 0);
+  display: inline-block;
+  margin: 34px 0 34px;
+} */
+
+/* .price-line {
   width: 64px;
   border-top: 2px solid rgb(255, 51, 0);
   margin: 0 auto 34px;
-}
+} */
 
 .price-discription {
   margin: 0 auto 63px;
 }
 
-h6 {
+.price-discription_text {
   font-family: Open Sans;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   font-style: normal;
   line-height: 19px;

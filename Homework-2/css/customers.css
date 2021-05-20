@@ -1,0 +1,123 @@
+.customers-section {
+  background-color: #ffffff;
+}
+.block-title-customers {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.title-customers {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: normal;
+  color: #212121;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.title-customers::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  background-color: #e72424;
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+.customers-discription {
+  margin: 0 auto 67px;
+}
+
+.customers-discription-text {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19px;
+  color: #86878b;
+}
+
+.customers-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.customers-row-item {
+  /* background: #e2e2e2;
+  width: 298px;
+  height: 110px;
+  left: 157px;
+  top: 278px;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.customers-row-item_description {
+  background: #e2e2e2;
+  width: 298px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 7px;
+  margin: 0 auto 22px;
+  position: relative;
+}
+
+.customers-row-item_description::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-top: 17px solid #e2e2e2;
+  position: absolute;
+  left: 39px;
+  right: 234px;
+  top: 110px;
+}
+
+.customers-row-item_text {
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19px;
+  color: #86878b;
+}
+
+.customers-photo {
+  width: 70px;
+  height: 70px;
+  background-image: url('/img/manager-photo.jpg');
+  background-size: cover;
+  display: block;
+  border-radius: 50%;
+  margin-right: 45px;
+}
+
+.customers-row-item_name {
+  width: 97px;
+  height: 27px;
+  left: 317px;
+  top: 418px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  justify-content: flex-end;
+  color: #333333;
+}

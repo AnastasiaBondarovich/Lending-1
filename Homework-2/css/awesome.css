@@ -15,11 +15,18 @@ h2 {
   text-transform: uppercase;
   margin-bottom: 25px;
 }
-.awesome-line {
+
+/* h2::after {
+  content: "line"
+  display: block;
+  width: 64px;
+  } */
+
+/* .awesome-line {
   width: 64px;
   border-top: 2px solid rgb(255, 51, 0);
   margin: 0 auto 30px;
-}
+} */
 
 .awesome-discription {
   margin-left: auto;

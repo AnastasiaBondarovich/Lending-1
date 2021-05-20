@@ -1,0 +1,74 @@
+.axure-section {
+  width: 100%;
+  height: 100%;.
+  background-image: url('/img');;
+  padding: 200px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.axure-section::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.axure-title {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: normal;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+  text-align: center;
+  }
+
+.axure-title::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  background-color: #FFFFFF;
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+.axure-description {
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 57px;
+  text-align: center;
+}
+
+.button-axure {
+  position: absolute;
+  width: 135px;
+  height: 42px;
+  left: 632px;
+  top: 245px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  margin: 0 auto 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button-text {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: center;
+}
