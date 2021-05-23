@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  width: 100%;
+  background-color: #000000;
+  padding: 20px 0 19px;
+}
+
+.logo {
+  display: flex;
+  /* justify-content: flex-start; */
+  margin-left: 110px;
+  align-self: start;
+}
+
+.title-logo {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-logo::after {
+  content: 'IT';
+  text-transform: uppercase;
+  color: #e72424;
+}
+
+nav.menu {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-self: end;
+}
+
+ul.menu-list {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+li.menu-list-item {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 20.43px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: capitalize;
+  margin-right: 48px;
+  margin-left: auto;
+}
