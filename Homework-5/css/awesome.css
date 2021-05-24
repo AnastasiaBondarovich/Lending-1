@@ -16,11 +16,16 @@ h2.title-awesome-text {
   margin-bottom: 25px;
 }
 
-/* h2::after {
-  content: "line"
-  display: block;
+.title-awesome-text::after {
+  content: '';
   width: 64px;
-  } */
+  height: 2px;
+  background-color: #e72424;
+  display: block;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
 
 /* .awesome-line {
   width: 64px;

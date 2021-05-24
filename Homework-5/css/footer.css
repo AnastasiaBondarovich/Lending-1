@@ -1,0 +1,129 @@
+footer {
+  width: 100%;
+  background-color: #000000;
+  padding: 30px 0 15px;
+}
+
+/* .footer-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+ul.footer-media-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.footer-media-item-icon-facebook {
+  font-size: 15px;
+  color: #86878b;
+  margin-left: 25px;
+  transition-duration: 0.3s;
+}
+
+.footer-media-item-icon-facebook:hover {
+  color: #4267b2;
+  transform: scale(2);
+}
+
+.footer-media-item-icon-twitter {
+  font-size: 15px;
+  color: #86878b;
+  margin-left: 25px;
+  transition-duration: 0.3s;
+}
+
+.footer-media-item-icon-twitter:hover {
+  color: #1da1f2;
+  transform: scale(2);
+}
+
+.footer-media-item-icon-google {
+  font-size: 15px;
+  color: #86878b;
+  margin-left: 25px;
+  transition-duration: 0.3s;
+}
+
+.footer-media-item-icon-google:hover {
+  color: #db4a39;
+  transform: scale(2);
+}
+
+.footer-media-item-icon-pinterest {
+  font-size: 15px;
+  color: #86878b;
+  margin-left: 25px;
+  transition-duration: 0.3s;
+}
+
+.footer-media-item-icon-pinterest:hover {
+  color: #e60023;
+  transform: scale(2);
+}
+
+.footer-media-item-icon-instagram {
+  font-size: 15px;
+  color: #86878b;
+  margin-left: 25px;
+  transition-duration: 0.3s;
+}
+
+.footer-media-item-icon-instagram:hover {
+  font-size: 15px;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(2);
+}
+
+.footer-media-item-icon-share {
+  font-size: 15px;
+  color: #86878b;
+  margin-left: 25px;
+  transition-duration: 0.3s;
+}
+
+.footer-media-item-icon-share:hover {
+  color: #4be724;
+  transform: scale(2);
+}
+
+.footer-media-item-icon-rss {
+  font-size: 15px;
+  color: #86878b;
+  margin-left: 25px;
+  transition-duration: 0.3s;
+}
+
+.footer-media-item-icon-rss:hover {
+  color: #ee802f;
+  transform: scale(2);
+}
+
+.footer-describtion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-describtion-text {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16.34px;
+  color: rgba(255, 255, 255, 0.5);
+}

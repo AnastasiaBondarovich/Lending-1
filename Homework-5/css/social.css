@@ -1,0 +1,141 @@
+.social-section {
+  display: flex;
+  background-color: #f8efef;
+  width: 100%;
+  padding: 14px 111px 17px 111px;
+}
+
+.title-social {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+h3.title-social-text {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #333333;
+  margin-bottom: 14px;
+}
+
+.title-social-describtion {
+  width: 365px;
+}
+
+.title-social-describtion p {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.07px;
+  color: #86878b;
+}
+
+.social-media {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+ul.social-media-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social-media-item-icon-facebook {
+  font-size: 30px;
+  color: #86878b;
+  margin-left: 50px;
+  transition-duration: 0.3s;
+}
+
+.social-media-item-icon-facebook:hover {
+  color: #4267b2;
+  transform: scale(1.5);
+}
+
+.social-media-item-icon-twitter {
+  font-size: 30px;
+  color: #86878b;
+  margin-left: 50px;
+  transition-duration: 0.3s;
+}
+
+.social-media-item-icon-twitter:hover {
+  color: #1da1f2;
+  transform: scale(1.5);
+}
+
+.social-media-item-icon-google {
+  font-size: 30px;
+  color: #86878b;
+  margin-left: 50px;
+  transition-duration: 0.3s;
+}
+
+.social-media-item-icon-google:hover {
+  color: #db4a39;
+  transform: scale(1.5);
+}
+
+.social-media-item-icon-pinterest {
+  font-size: 30px;
+  color: #86878b;
+  margin-left: 50px;
+  transition-duration: 0.3s;
+}
+
+.social-media-item-icon-pinterest:hover {
+  color: #e60023;
+  transform: scale(1.5);
+}
+
+.social-media-item-icon-instagram {
+  font-size: 30px;
+  color: #86878b;
+  margin-left: 50px;
+  transition-duration: 0.3s;
+}
+
+.social-media-item-icon-instagram:hover {
+  font-size: 30px;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+}
+
+.social-media-item-icon-share {
+  font-size: 30px;
+  color: #86878b;
+  margin-left: 50px;
+  transition-duration: 0.3s;
+}
+
+.social-media-item-icon-share:hover {
+  color: #4be724;
+  transform: scale(1.5);
+}
+
+.social-media-item-icon-rss {
+  font-size: 30px;
+  color: #86878b;
+  margin-left: 50px;
+  transition-duration: 0.3s;
+}
+
+.social-media-item-icon-rss:hover {
+  color: #ee802f;
+  transform: scale(1.5);
+}

@@ -76,4 +76,10 @@
   font-size: 15px;
   color: #ffffff;
   text-align: center;
+  transition-duration: 0.2s;
+}
+
+.button-title:hover {
+  text-shadow: 6px -6px 5px rgb(1, 17, 9);
+  transform: scale(1.3);
 }
