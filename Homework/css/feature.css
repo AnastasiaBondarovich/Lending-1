@@ -1,0 +1,131 @@
+.feature-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.feature-tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-tabs-element {
+  max-width: 112px;
+  height: 110px;
+  background-color: #333333;
+  padding: 45px 35px;
+  border-radius: 4px;
+  margin-bottom: 9px;
+  border: 1px solid #ffffff;
+  transition-duration: 0.2s;
+}
+
+.feature-tabs-element:hover {
+  text-shadow: 3px -3px 4px rgb(1, 17, 9);
+  transform: scale(1.3);
+}
+
+.feature-tabs-element:first-child {
+  background: #ec7979;
+}
+
+.feature-tabs-element:last-child {
+  margin-bottom: 0;
+}
+
+.feature-tabs-element p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.feature-textzone {
+  max-width: 572px;
+}
+
+.feature-textzone h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  text-align: start;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 58px;
+}
+
+.description-feature-textzone {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  text-align: start;
+  text-transform: uppercase;
+  color: #86878b;
+  margin-bottom: 89px;
+}
+
+.feature-button {
+  max-width: 135px;
+  height: 42px;
+  background-color: #ec7979;
+  border: 1px solid #ffffff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 11px 27px 11px 25px;
+  transition-duration: 0.2s;
+}
+
+.feature-button:hover {
+  transform: scale(1.3);
+}
+
+.feature-img {
+  max-width: 320px;
+  height: 253px;
+}
+
+@media (max-width: 654px) {
+  .feature-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .future-tabs {
+    margin-bottom: 20px;
+  }
+
+  .feature-textzone {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .feature-textzone h3 {
+    text-align: center;
+  }
+
+  .feature-img {
+    margin-top: 20px;
+  }
+}

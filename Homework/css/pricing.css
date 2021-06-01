@@ -11,7 +11,7 @@
 .title-pricing {
   font-family: Raleway;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: normal;
   color: #212121;
   text-transform: uppercase;
@@ -45,9 +45,9 @@
 .price-discription_text {
   font-family: Open Sans;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
-  line-height: 19px;
+  line-height: 1.1875rem;
   color: #86878b;
 }
 
@@ -74,9 +74,9 @@
 .tariff-basic {
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
-  line-height: 27px;
+  line-height: 1.6875rem;
   color: #ffffff;
   /* text-align: center; */
 }
@@ -96,9 +96,9 @@
 .price-dollars-1 {
   font-family: Raleway;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-style: normal;
-  line-height: 41px;
+  line-height: 2.5625rem;
   color: #ffffff;
   /* text-align: center; */
 }
@@ -118,9 +118,9 @@
 .price-conditions-descriptions-1 {
   font-family: Open Sans;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
-  line-height: 19px;
+  line-height: 1.1875rem;
   color: rgba(255, 255, 255, 0.5);
   /* text-align: center; */
 }
@@ -140,9 +140,9 @@
 .advantage-1gb {
   font-family: Open Sans;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
-  line-height: 19px;
+  line-height: 1.1875rem;
   color: #86878b;
   /* text-align: center; */
 }
@@ -161,9 +161,9 @@
 .tariff-optima {
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
-  line-height: 27px;
+  line-height: 1.6875rem;
   color: #ffffff;
   /* text-align: center; */
 }
@@ -183,9 +183,9 @@
 .price-dollars-2 {
   font-family: Raleway;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-style: normal;
-  line-height: 41px;
+  line-height: 2.5625rem;
   color: #ffffff;
   /* text-align: center; */
 }
@@ -205,9 +205,19 @@
 .price-conditions-descriptions-2 {
   font-family: Open Sans;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
-  line-height: 19px;
+  line-height: 1.1875rem;
   color: rgba(255, 255, 255, 0.5);
   /* text-align: center; */
+}
+
+@media (max-width: 638px) {
+  .price-item-1 {
+    margin-bottom: 20px;
+  }
+
+  .price-item-2 {
+    margin-bottom: 20px;
+  }
 }

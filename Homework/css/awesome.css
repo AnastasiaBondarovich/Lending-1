@@ -9,7 +9,7 @@
 }
 
 h2.title-awesome-text {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   color: #212121;
   text-transform: uppercase;
@@ -41,8 +41,8 @@ h2.title-awesome-text {
 
 h6 {
   font-family: open sans;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   color: #86878b;
 }
 .awesome-row {
@@ -75,8 +75,8 @@ h6 {
 .awesome-description-item {
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   color: #333333;
   text-align: center;
   margin-top: 30px;
@@ -87,8 +87,8 @@ h6 {
 
 .awesome-text {
   font-family: Open Sans;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   color: #000000;
   width: auto;
   height: auto;

@@ -11,7 +11,7 @@
 .title-customers {
   font-family: Raleway;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: normal;
   color: #212121;
   text-transform: uppercase;
@@ -37,9 +37,9 @@
 .customers-discription-text {
   font-family: Open Sans;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
-  line-height: 19px;
+  line-height: 1.1875rem;
   color: #86878b;
 }
 
@@ -87,9 +87,9 @@
 .customers-row-item_text {
   font-family: Open Sans;
   font-weight: 400px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
-  line-height: 19px;
+  line-height: 1.1875rem;
   color: #86878b;
 }
 
@@ -120,8 +120,8 @@
   top: 418px; */
   font-family: Open Sans;
   font-style: normal;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   color: #333333;
 }
 

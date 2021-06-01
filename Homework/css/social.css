@@ -2,33 +2,41 @@
   display: flex;
   background-color: #f8efef;
   width: 100%;
-  padding: 14px 111px 17px 111px;
+  /* padding: 14px 111px 17px 111px; */
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.social {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .title-social {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  margin-right: 260px;
 }
 
 h3.title-social-text {
   font-family: Open Sans;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 27.24px;
+  font-size: 1.25rem;
+  line-height: 1.7025rem;
   color: #333333;
   margin-bottom: 14px;
 }
 
 .title-social-describtion {
-  width: 365px;
+  max-width: 365px;
 }
 
 .title-social-describtion p {
   font-family: Open Sans;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19.07px;
+  font-size: 0.875rem;
+  line-height: 1.192rem;
   color: #86878b;
 }
 
@@ -46,7 +54,7 @@ ul.social-media-item {
 }
 
 .social-media-item-icon-facebook {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #86878b;
   margin-left: 50px;
   transition-duration: 0.3s;
@@ -58,7 +66,7 @@ ul.social-media-item {
 }
 
 .social-media-item-icon-twitter {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #86878b;
   margin-left: 50px;
   transition-duration: 0.3s;
@@ -70,7 +78,7 @@ ul.social-media-item {
 }
 
 .social-media-item-icon-google {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #86878b;
   margin-left: 50px;
   transition-duration: 0.3s;
@@ -82,7 +90,7 @@ ul.social-media-item {
 }
 
 .social-media-item-icon-pinterest {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #86878b;
   margin-left: 50px;
   transition-duration: 0.3s;
@@ -94,14 +102,14 @@ ul.social-media-item {
 }
 
 .social-media-item-icon-instagram {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #86878b;
   margin-left: 50px;
   transition-duration: 0.3s;
 }
 
 .social-media-item-icon-instagram:hover {
-  font-size: 30px;
+  font-size: 1.875rem;
   background: #d6249f;
   background: radial-gradient(
     circle at 30% 107%,
@@ -117,7 +125,7 @@ ul.social-media-item {
 }
 
 .social-media-item-icon-share {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #86878b;
   margin-left: 50px;
   transition-duration: 0.3s;
@@ -129,7 +137,7 @@ ul.social-media-item {
 }
 
 .social-media-item-icon-rss {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #86878b;
   margin-left: 50px;
   transition-duration: 0.3s;
@@ -138,4 +146,22 @@ ul.social-media-item {
 .social-media-item-icon-rss:hover {
   color: #ee802f;
   transform: scale(1.5);
+}
+
+@media (max-width: 1078px) {
+  .social {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .title-social {
+    margin-right: 0px;
+  }
+
+  .title-social-describtion {
+    max-width: 1078px;
+    margin-bottom: 20px;
+  }
 }

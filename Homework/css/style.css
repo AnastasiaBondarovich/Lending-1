@@ -5,7 +5,9 @@
 @import url('../css/header.css');
 @import url('../css/social.css');
 @import url('../css/footer.css');
-
+@import url('../css/first-screen.css');
+@import url('../css/contactus.css');
+@import url('../css/feature.css');
 html {
   font-family: 'Raleway', 'Open Sans', sans-serif;
 }
@@ -29,4 +31,14 @@ html {
   padding: 15px 0;
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .container {
+    max-width: 500px;
+  }
 }
